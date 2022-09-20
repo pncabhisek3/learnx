@@ -4,23 +4,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+After cloning this 'learnx' project, please run npm update to reinstall or update missing packages.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## NOTE!!
+1. Once the angular application is loaded on browser, now navigate to `http://localhost:4200/sub`
+2. Now you can upload .mp4 formatted videos only as the 'Content-Type is 'video/mp4' 
+3. This application needs help of #spring boot applition for server side data processing.
+4. So the next step is to clone spring boot app 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
