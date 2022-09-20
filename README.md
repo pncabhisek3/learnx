@@ -11,7 +11,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 1. Once the angular application is loaded on browser, now navigate to `http://localhost:4200/sub`
 2. Now you can upload .mp4 formatted videos only as the 'Content-Type is 'video/mp4' 
 3. This application needs help of #spring boot applition for server side data processing.
-4. So the next step is to clone spring boot app 
+4. So the next step is to clone spring boot app from https://github.com/pncabhisek3/Api repository or 
+    directly clone the repository from (https://github.com/pncabhisek3/Api.git) 
+5. Now run both the application in your system and Done!!
 
 
 ## Further help
