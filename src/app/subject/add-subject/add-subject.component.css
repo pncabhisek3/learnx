@@ -1,0 +1,18 @@
+#video-player{
+    /* display: none; */
+}
+#video-list{
+    width: inherit;
+    background-color: rgb(137, 140, 165);
+    padding: 5px;
+    color: white;
+}
+#video-container{
+    border: solid rgb(137, 140, 165);
+    width: 38rem;
+}
+#video-form{
+    width: inherit;
+    background-color: rgb(225, 225, 225);
+    padding: 2rem;
+}

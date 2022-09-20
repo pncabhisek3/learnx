@@ -1,0 +1,42 @@
+<main id="video-container">
+    <div id="video-list">
+        <header>
+            <h3>Now Playing : {{videoName}}</h3>
+            <input type="text" id="video-name" placeholder="Type Video Name" [(ngModel)]="searchedFileName">
+            <button type="button" (click)="onSearch($event)">Search</button>
+        </header>
+        <ul id="your-videos">
+        </ul>
+    </div>
+    <div id="video-player">
+
+       
+
+        <video id="video-screen" width="540px" height="330px" src="http://localhost:8080/video/{{videoName}}"
+            poster="https://www.dummyimage.online/640x450/ff7214/ffffff.png&text=BIG+BUCK+BUNNY" controls>
+        </video>
+        <progress id="file" value={{progress}} max="100" style="width: 95%; margin-left: 10px; margin-right: 10px;">
+            {{progress}}
+        </progress>
+    </div>
+    <form id="video-form">
+        <h3>Upload Video</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Video File</th>
+                    <th>File Name</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th><input id="file" name="file" type="file" accept="application/mp4"
+                            (change)="onFilechange($event)">
+                    </th>
+                    <th><input id="name" name="name" type="text" [(ngModel)]="model.fileName"></th>
+                    <td colspan="2"><button type="button" (click)="onUpload($event)">Save</button></td>
+                    {{progress}}
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</main>
